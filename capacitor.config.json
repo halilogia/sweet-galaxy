@@ -1,0 +1,7 @@
+
+{
+  "appId": "com.sweetgalaxy.match3",
+  "appName": "Sweet Galaxy",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
