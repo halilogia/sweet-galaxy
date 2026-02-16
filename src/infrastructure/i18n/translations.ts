@@ -41,6 +41,34 @@ export type TranslationKeys = {
   nextSector: string;
   retry: string;
   backToStarMap: string;
+  // Goals (level objectives)
+  goalReachScore: string;
+  goalCollect: string;
+  goalWithinMoves: string;
+  candyRed: string;
+  candyBlue: string;
+  candyGreen: string;
+  candyYellow: string;
+  candyPurple: string;
+  candyOrange: string;
+  movesBonus: string;
+  backToMenu: string;
+  noMovesLeftTitle: string;
+  noMovesLeftMessage: string;
+  shuffle: string;
+  // Leaderboard
+  leaderboard: string;
+  bestScore: string;
+  yourBest: string;
+  // Daily rewards
+  dailyReward: string;
+  claimReward: string;
+  loginBonus: string;
+  streak: string;
+  days: string;
+  day: string;
+  claimed: string;
+  noScoresYet: string;
 };
 
 export const translations: Record<Locale, TranslationKeys> = {
@@ -66,6 +94,31 @@ export const translations: Record<Locale, TranslationKeys> = {
     nextSector: 'NEXT SECTOR',
     retry: 'RETRY',
     backToStarMap: 'Back to Star Map',
+    goalReachScore: 'Reach {score} points',
+    goalCollect: 'Collect {count} {color}',
+    goalWithinMoves: 'Within {moves} moves',
+    candyRed: 'red',
+    candyBlue: 'blue',
+    candyGreen: 'green',
+    candyYellow: 'yellow',
+    candyPurple: 'purple',
+    candyOrange: 'orange',
+    movesBonus: 'Moves bonus',
+    backToMenu: 'Main Menu',
+    noMovesLeftTitle: 'No possible moves',
+    noMovesLeftMessage: 'No valid swap left. Shuffle the board to continue.',
+    shuffle: 'SHUFFLE',
+    leaderboard: 'Leaderboard',
+    bestScore: 'Best Score',
+    yourBest: 'Your Best',
+    dailyReward: 'Daily Reward',
+    claimReward: 'CLAIM',
+    loginBonus: 'Login Bonus',
+    streak: 'Streak',
+    days: 'days',
+    day: 'Day',
+    claimed: 'Claimed',
+    noScoresYet: 'No scores recorded yet',
   },
   tr: {
     subtitle: 'Yıldız Yolculuğu Eşleştirme-3',
@@ -89,5 +142,30 @@ export const translations: Record<Locale, TranslationKeys> = {
     nextSector: 'SONRAKİ SEKTÖR',
     retry: 'TEKRAR DENE',
     backToStarMap: 'Yıldız Haritasına Dön',
+    goalReachScore: '{score} puan topla',
+    goalCollect: '{count} adet {color} topla',
+    goalWithinMoves: '{moves} hamlede bitir',
+    candyRed: 'kırmızı',
+    candyBlue: 'mavi',
+    candyGreen: 'yeşil',
+    candyYellow: 'sarı',
+    candyPurple: 'mor',
+    candyOrange: 'turuncu',
+    movesBonus: 'Hamle bonusu',
+    backToMenu: 'Ana Menü',
+    noMovesLeftTitle: 'Olası hamle kalmadı',
+    noMovesLeftMessage: 'Geçerli takas kalmadı. Devam etmek için tahtayı karıştır.',
+    shuffle: 'KARIŞTIR',
+    leaderboard: 'Skor Tablosu',
+    bestScore: 'En Yüksek Skor',
+    yourBest: 'En İyi Skorun',
+    dailyReward: 'Günlük Ödül',
+    claimReward: 'AL',
+    loginBonus: 'Giriş Bonusu',
+    streak: 'Seri',
+    days: 'gün',
+    day: 'Gün',
+    claimed: 'Alındı',
+    noScoresYet: 'Henüz skor kaydedilmedi',
   },
 };
